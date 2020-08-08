@@ -1,0 +1,60 @@
+---
+    layout: paged
+---
+<section>
+
+# A Paged Layout
+
+## Configuring
+
+This is an excellent layout for longer pages, it uses css scroll snapping to allow for some fancy scrolling. You can also use PageDown and PageUp to do the scrolling for you.
+
+To use it add this to the header of your .svx file
+
+```
+---
+    layout: paged
+---
+```
+</section>
+
+<section>
+
+## Usage
+
+In order for the paging to work, each 'page' has to be wrapped in a `<section>` element.
+
+```md
+<section>
+
+ This is a section
+
+</section>
+
+<section>
+
+ This is another section
+
+</section>
+```
+
+</section>
+
+<section>
+
+## A Warning ⚠️
+
+**When wrapping with `<section>` make sure to leave an empty line between the tag and the first line of markdown, otherwise it will not be picked up**
+
+```md
+<section>
+#This will not be processed correctly
+</section>
+
+<section>
+
+# But this will
+
+</section>
+```
+</section>

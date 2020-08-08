@@ -1,0 +1,7 @@
+---
+    layout: centered
+---
+
+# Svelte Presenter
+
+a straightforward presentation library made in Svelte

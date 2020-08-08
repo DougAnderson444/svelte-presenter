@@ -1,0 +1,33 @@
+:root {
+	--nav-background: rgba(0,0,0,0.2);
+	--nav-button-color: black;
+	--font-family: monospace;
+}
+
+* {
+	box-sizing: border-box;
+	color: inherit;
+	font-family: var(--font-family);
+	margin: 0;
+	padding: 0;
+}
+
+.page {
+	display: block;
+	height: 100vh;
+	overflow: auto;
+	scroll-snap-type: y mandatory;
+}
+
+.page > div {
+	padding: 2rem;
+}
+
+.page > div > * + * {
+	margin-top: 1rem;
+}
+
+.red {
+	background-color: red;
+	color: white;
+}

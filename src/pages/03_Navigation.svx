@@ -1,0 +1,20 @@
+---
+---
+
+# Navigation
+
+The package comes with very basic navigation included, either use the left and right arrow to go through the pages, or use the buttons at the bottom of the page (these only appear on hove as to not distract from the presentation itself).
+
+## Styling the navigation
+
+You can simply style the navigation by going into `public/global.css` and change the root values.
+
+```css
+:root {
+	--nav-background: rgba(0,0,0,0.2);
+	--nav-button-color: black;
+	--font-family: monospace;
+}
+```
+
+Alternatively you can change the entire `Navigation` component itself, as long as it exposes a `next` and `prev` event, you will be all fine.

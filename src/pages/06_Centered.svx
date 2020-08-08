@@ -1,0 +1,13 @@
+---
+    layout: centered
+---
+
+# Centered Layout
+
+To center all content add the following to the top of your .svx file
+
+```
+---
+    layout: centered
+---
+```
