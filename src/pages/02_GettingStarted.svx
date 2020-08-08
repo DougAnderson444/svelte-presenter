@@ -1,9 +1,9 @@
 # Getting Started
 
-Simply fork, clone or degit the repo and you are all set.
+Degit the repo and you are all set.
 
 ```bash
-npx degit svelte-presenter my-presentation
+npx degit stephane-vanraes/svelte-presenter my-presentation
 ```
 
 You will find the samples pages under the folder **/src/pages**.  They are using  [MDSvex](http://www.mdsvex.com) so it is as simple as writing Markdown to get your presentation going.

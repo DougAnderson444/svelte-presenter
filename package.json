@@ -1,6 +1,15 @@
 {
   "name": "svelte-presenter",
-  "version": "0.1.0",
+  "version": "0.1.1",
+  "description": "A package to make presentations with Svelte",
+  "repository": {
+    "url": "https://github.com/stephane-vanraes/svelte-presenter"
+  },  
+  "author": "Stephane Vanraes",
+  "keywords": [
+    "svelte",
+    "presentations"
+  ],
   "scripts": {
     "build": "rollup -c",
     "dev": "rollup -c -w",

@@ -1,14 +1,18 @@
 # Svelte Presenter
 
-## Configuring
+## Getting Stared
 
-You can configure colours and font in `/public/global.css`, they are located in the `:root` element
+Copy the package to a new folder
 
-```css
-:root {
-	--nav-background: rgba(0,0,0,0.2);
-	--nav-button-color: black;
-	--font-family: monospace;
-}
+```bash
+npx degit stephane-vanraes/svelte-presenter my-presentation
 ```
 
+Install dependencies and start the server
+
+```bash
+npm install
+npm run dev
+```
+
+Look at the presentation to learn more!
