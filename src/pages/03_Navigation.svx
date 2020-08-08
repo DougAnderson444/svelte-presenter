@@ -7,7 +7,7 @@ The package comes with very basic navigation included, either use the left and r
 
 ## Styling the navigation
 
-You can simply style the navigation by going into `public/global.css` and change the root values.
+You can simply style the navigation by going into `docs/global.css` and change the root values.
 
 ```css
 :root {

@@ -35,7 +35,7 @@ export default {
 		sourcemap: true,
 		format: 'iife',
 		name: 'app',
-		file: 'public/build/bundle.js'
+		file: 'docs/build/bundle.js'
 	},
 	plugins: [
 		json(),
@@ -43,7 +43,7 @@ export default {
 			dev: !production,
 			extensions: ['.svelte', '.svx'],
 			css: css => {
-				css.write('public/build/bundle.css');
+				css.write('docs/build/bundle.css');
 			},
 			preprocess: [
 				mdsvex({
@@ -61,7 +61,7 @@ export default {
 		}),
 		commonjs(),
 		!production && serve(),
-		!production && livereload('public'),
+		!production && livereload('docs'),
 		production && terser()
 	],
 	watch: {
