@@ -5,3 +5,5 @@
 # Svelte Presenter
 
 a straightforward presentation library made in Svelte
+
+<a href="https://github.com/stephane-vanraes/svelte-presenter">Check it out on Github</a>
