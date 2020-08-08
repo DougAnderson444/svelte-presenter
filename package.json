@@ -1,7 +1,8 @@
 {
   "name": "svelte-presenter",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "A package to make presentations with Svelte",
+  "homepage": "https://stephane-vanraes.github.io/svelte-presenter",
   "repository": {
     "url": "https://github.com/stephane-vanraes/svelte-presenter"
   },  
