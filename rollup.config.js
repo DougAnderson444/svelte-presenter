@@ -5,6 +5,22 @@ import json from '@rollup/plugin-json';
 import livereload from 'rollup-plugin-livereload';
 import { terser } from 'rollup-plugin-terser';
 import { mdsvex } from 'mdsvex'
+import replace from '@rollup/plugin-replace'
+import fs from 'fs'
+
+function buildIndex() {
+	const components = fs.readdirSync('src/pages')
+	const imports = components.map((c, i) => `import Page${i} from './pages/${c}'`)
+	const array = components.map((c, i) => `Page${i}`)
+
+	console.log(components)
+
+	return `
+	${imports.join('\n')}
+
+	const pages = [${array.join(',')}]
+	`
+}
 
 const production = !process.env.ROLLUP_WATCH;
 
@@ -39,6 +55,10 @@ export default {
 	},
 	plugins: [
 		json(),
+		replace({
+			__PAGES__: () => buildIndex(),
+			__DATE__: () => new Date()
+		}),
 		svelte({
 			dev: !production,
 			extensions: ['.svelte', '.svx'],

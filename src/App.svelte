@@ -1,6 +1,8 @@
 <script>
-	import pages from './pages'
+	//import pages from './pages'
 	
+	__PAGES__ 
+
 	let index = 0;
 
 	const next = () => index !== pages.length - 1 && index++
@@ -10,7 +12,9 @@
         ev.key === 'ArrowRight' && next()
         ev.key === 'ArrowLeft' && prev()
 	}
-	
+
+	console.log("__DATE__")
+
 </script>
 
 <style>
