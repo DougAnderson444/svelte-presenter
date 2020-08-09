@@ -1024,26 +1024,8 @@ var app = (function () {
     	let t5;
     	let p1;
     	let t6;
-    	let code0;
+    	let code;
     	let t8;
-    	let t9;
-    	let pre;
-
-    	let raw_value = `<code class="language-css"><span class="token selector">:root</span> <span class="token punctuation">&#123;</span>
-	<span class="token property">--nav-background</span><span class="token punctuation">:</span> <span class="token function">rgba</span><span class="token punctuation">(</span>0<span class="token punctuation">,</span>0<span class="token punctuation">,</span>0<span class="token punctuation">,</span>0.2<span class="token punctuation">)</span><span class="token punctuation">;</span>
-	<span class="token property">--nav-button-color</span><span class="token punctuation">:</span> black<span class="token punctuation">;</span>
-	<span class="token property">--font-family</span><span class="token punctuation">:</span> monospace<span class="token punctuation">;</span>
-<span class="token punctuation">&#125;</span></code>` + "";
-
-    	let t10;
-    	let p2;
-    	let t11;
-    	let code1;
-    	let t13;
-    	let code2;
-    	let t15;
-    	let code3;
-    	let t17;
 
     	const block = {
     		c: function create() {
@@ -1057,35 +1039,15 @@ var app = (function () {
     			h2.textContent = "Styling the navigation";
     			t5 = space();
     			p1 = element("p");
-    			t6 = text("You can simply style the navigation by going into ");
-    			code0 = element("code");
-    			code0.textContent = "docs/global.css";
-    			t8 = text(" and change the root values.");
-    			t9 = space();
-    			pre = element("pre");
-    			t10 = space();
-    			p2 = element("p");
-    			t11 = text("Alternatively you can change the entire ");
-    			code1 = element("code");
-    			code1.textContent = "Navigation";
-    			t13 = text(" component itself, as long as it exposes a ");
-    			code2 = element("code");
-    			code2.textContent = "next";
-    			t15 = text(" and ");
-    			code3 = element("code");
-    			code3.textContent = "prev";
-    			t17 = text(" event, you will be all fine.");
+    			t6 = text("The navigation can be found in the ");
+    			code = element("code");
+    			code.textContent = "App.svelte";
+    			t8 = text(" file and can be easily styled there.");
     			add_location(h1, file$4, 6, 0, 135);
     			add_location(p0, file$4, 7, 0, 155);
     			add_location(h2, file$4, 8, 0, 400);
-    			add_location(code0, file$4, 9, 53, 485);
+    			add_location(code, file$4, 9, 38, 470);
     			add_location(p1, file$4, 9, 0, 432);
-    			attr_dev(pre, "class", "language-css");
-    			add_location(pre, file$4, 10, 0, 546);
-    			add_location(code1, file$4, 15, 43, 1463);
-    			add_location(code2, file$4, 15, 109, 1529);
-    			add_location(code3, file$4, 15, 131, 1551);
-    			add_location(p2, file$4, 15, 0, 1420);
     		},
     		m: function mount(target, anchor) {
     			insert_dev(target, h1, anchor);
@@ -1096,22 +1058,9 @@ var app = (function () {
     			insert_dev(target, t5, anchor);
     			insert_dev(target, p1, anchor);
     			append_dev(p1, t6);
-    			append_dev(p1, code0);
+    			append_dev(p1, code);
     			append_dev(p1, t8);
-    			insert_dev(target, t9, anchor);
-    			insert_dev(target, pre, anchor);
-    			pre.innerHTML = raw_value;
-    			insert_dev(target, t10, anchor);
-    			insert_dev(target, p2, anchor);
-    			append_dev(p2, t11);
-    			append_dev(p2, code1);
-    			append_dev(p2, t13);
-    			append_dev(p2, code2);
-    			append_dev(p2, t15);
-    			append_dev(p2, code3);
-    			append_dev(p2, t17);
     		},
-    		p: noop,
     		d: function destroy(detaching) {
     			if (detaching) detach_dev(h1);
     			if (detaching) detach_dev(t1);
@@ -1120,10 +1069,6 @@ var app = (function () {
     			if (detaching) detach_dev(h2);
     			if (detaching) detach_dev(t5);
     			if (detaching) detach_dev(p1);
-    			if (detaching) detach_dev(t9);
-    			if (detaching) detach_dev(pre);
-    			if (detaching) detach_dev(t10);
-    			if (detaching) detach_dev(p2);
     		}
     	};
 

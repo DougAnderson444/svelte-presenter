@@ -7,14 +7,4 @@ The package comes with very basic navigation included, either use the left and r
 
 ## Styling the navigation
 
-You can simply style the navigation by going into `docs/global.css` and change the root values.
-
-```css
-:root {
-	--nav-background: rgba(0,0,0,0.2);
-	--nav-button-color: black;
-	--font-family: monospace;
-}
-```
-
-Alternatively you can change the entire `Navigation` component itself, as long as it exposes a `next` and `prev` event, you will be all fine.
+The navigation can be found in the `App.svelte` file and can be easily styled there.
