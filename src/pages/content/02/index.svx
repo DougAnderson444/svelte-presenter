@@ -7,6 +7,6 @@
 
 Svelte Presenter is an attempt at making a easy-to-use tool for presentations.
 
-Pages are written using [http://www.mdsvex.com](mdsvex) and picked up by the script during the build.
+Pages are written using [mdsvex](http://www.mdsvex.com) and picked up by the script during the build.
 
 //TODO - pick up new pages automagically

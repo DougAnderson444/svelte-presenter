@@ -1,5 +1,0 @@
-# Default Layout
-
-This is the default layout, it places all content from the top of the page and goes down.
-
-Nothing much to see here, that's what makes it the _default_
