@@ -15,4 +15,4 @@ npm install
 npm run dev
 ```
 
-Look at the presentation to learn more!
+Look at the [https://stephane-vanraes.github.io/svelte-presenter/](presentation) to learn more!
