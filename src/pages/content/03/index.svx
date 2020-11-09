@@ -17,7 +17,7 @@
 
 # How to use it
 
-<img src="/images/image.jpg" alt="">
+<img src="./images/image.jpg" alt="">
 
 - add numbered folders to `/pages/content`
 - add a file `index.svx`
