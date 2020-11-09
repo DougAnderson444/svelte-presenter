@@ -1,34 +1,28 @@
 {
-  "name": "svelte-presenter",
-  "version": "0.1.2",
-  "description": "A package to make presentations with Svelte",
-  "homepage": "https://stephane-vanraes.github.io/svelte-presenter",
-  "repository": {
-    "url": "https://github.com/stephane-vanraes/svelte-presenter"
-  },
-  "author": "Stephane Vanraes",
-  "keywords": [
-    "svelte",
-    "presentations"
-  ],
+  "name": "svelte-app",
+  "version": "1.0.0",
   "scripts": {
     "build": "rollup -c",
     "dev": "rollup -c -w",
-    "start": "sirv docs"
+    "start": "sirv docs",
+    "generate-workers": "rollup -c rollup.workers.js"
   },
   "devDependencies": {
-    "@rollup/plugin-commonjs": "^12.0.0",
-    "@rollup/plugin-json": "^4.1.0",
+    "@rollup/plugin-commonjs": "^14.0.0",
     "@rollup/plugin-node-resolve": "^8.0.0",
-    "mdsvex": "^0.8.3",
-    "rollup-plugin-livereload": "^1.0.0",
-    "rollup-plugin-svelte": "^5.0.3",
-    "rollup-plugin-terser": "^5.1.2",
     "rollup": "^2.3.4",
+    "rollup-plugin-livereload": "^2.0.0",
+    "rollup-plugin-svelte": "^6.0.0",
+    "rollup-plugin-terser": "^7.0.0",
     "svelte": "^3.0.0"
   },
   "dependencies": {
-    "@rollup/plugin-replace": "^2.3.3",
+    "@rollup/plugin-json": "^4.1.0",
+    "@rollup/plugin-replace": "^2.3.4",
+    "mdsvex": "^0.8.8",
+    "prism": "^4.1.2",
+    "prism-svelte": "^0.4.7",
+    "renderless-svelte": "^1.4.2",
     "sirv-cli": "^1.0.0"
   }
 }

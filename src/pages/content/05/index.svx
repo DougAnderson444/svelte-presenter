@@ -1,0 +1,15 @@
+---
+    css: column
+    hue: 350
+---
+
+<script>
+    import Repl from 'components/Repl/Repl.svelte'
+    import App from './code/App.js'
+    import Animal from './code/Animal.js'
+    import Data from './code/Data.js'
+
+    const components = [App, Animal, Data]
+</script>
+
+<Repl {components} />

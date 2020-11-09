@@ -1,0 +1,28 @@
+---
+    css: headed-double-column
+    hue: 220
+---
+
+<style>
+    img {
+        border-radius: .25rem;
+        box-shadow:
+            -2px -2px 2px hsla(var(--hue), 100%, 50%, 50%),
+            -2px 2px 2px hsla(var(--hue), 100%, 50%, 50%),
+            2px -2px 2px hsla(var(--hue), 100%, 50%, 50%),
+            2px 2px 2px hsla(var(--hue), 100%, 50%, 50%);
+        width: 45%;
+    }
+</style>
+
+# How to use it
+
+<img src="/images/image.jpg" alt="">
+
+- add numbered folders to `/pages/content`
+- add a file `index.svx`
+- add a background hue to the frontmatter `hue: 220`
+- write markdown
+- some build in styling classes: `centered`, `headed-double-column`, `column`
+- add these by setting some frontmatter `css: centered`
+- add bullet points, everybody wants to see bullet points in presentation

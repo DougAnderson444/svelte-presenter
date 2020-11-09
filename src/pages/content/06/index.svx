@@ -1,0 +1,10 @@
+---
+    css: centered
+    hue: 120
+---
+
+# Things to hopefully come soon
+
+- automatic detection of new pages during development
+- reflect color of the page in the sidebar
+- automatic parsing of real files for the REPL
