@@ -1,8 +1,0 @@
----
-    css: centered
-    hue: 24
----
-
-# Svelte Presenter
-
-(use the sidebar or the arrow keys up and down)

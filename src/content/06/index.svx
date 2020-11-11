@@ -1,0 +1,38 @@
+---
+    layout: double-column
+    hue: 300
+    sat: 70
+    lum: 50
+---
+
+<script>
+    import { LiveCode } from 'svelte-presenter'
+    import Sample from './Sample.svelte'
+</script>
+
+# Interactive Elements
+
+- Thanks to mdsvex you can add regular Svelte components to your page
+- Use the built inn `LiveCode` component to wrap your samples with a standout box
+
+```import { LiveCode } from 'svelte-presenter'```
+
+```svelte
+<script>
+    let count = 0
+</script>
+
+<button on:click={() => count++}>{count}</button>
+
+<style>
+    button {
+        border-radius: 2rem;
+        cursor: pointer;
+        margin: 1rem 0;
+        padding: .5rem 1rem;
+        width: 100px;
+    }
+</style>
+```
+
+<LiveCode><Sample /></LiveCode>

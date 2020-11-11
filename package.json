@@ -9,20 +9,19 @@
   },
   "devDependencies": {
     "@rollup/plugin-commonjs": "^14.0.0",
+    "@rollup/plugin-json": "^4.1.0",
     "@rollup/plugin-node-resolve": "^8.0.0",
-    "rollup": "^2.3.4",
+    "@rollup/plugin-replace": "^2.3.4",
+    "gray-matter": "^4.0.2",
+    "mdsvex": "^0.8.8",
+    "renderless-svelte": "^1.4.2",
     "rollup-plugin-livereload": "^2.0.0",
     "rollup-plugin-svelte": "^6.0.0",
     "rollup-plugin-terser": "^7.0.0",
+    "rollup": "^2.3.4",
     "svelte": "^3.0.0"
   },
   "dependencies": {
-    "@rollup/plugin-json": "^4.1.0",
-    "@rollup/plugin-replace": "^2.3.4",
-    "mdsvex": "^0.8.8",
-    "prism": "^4.1.2",
-    "prism-svelte": "^0.4.7",
-    "renderless-svelte": "^1.4.2",
     "sirv-cli": "^1.0.0"
   }
 }

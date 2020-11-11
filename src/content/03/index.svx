@@ -1,0 +1,12 @@
+---
+    layout: centered
+    hue: 150
+    sat: 70
+    lum: 50
+---
+
+# What is Svelte Presenter ?
+
+Svelte Presenter allows to quickly make good looking presentations using [Svelte](https://www.svelte.dev) and [mdsvex](https://www.mdsvex.com). 
+
+It comes with a series of predefined layouts, support for a beautifull color scheme and a live REPL to blow your audience away.

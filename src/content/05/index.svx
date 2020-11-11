@@ -1,0 +1,18 @@
+---
+    layout: centered
+    hue: 250
+    sat: 70
+    lum: 50
+---
+
+# Layouts
+
+**There are three standard layouts**
+
+- centered
+- column
+- double-column
+
+**Making your own layouts**
+
+You can easily add your own layouts, but remember to add them to the mdsvex configuration in `rollup.config.js`

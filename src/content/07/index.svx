@@ -1,10 +1,17 @@
 ---
-    css: column
+    layout: column
     hue: 350
+    sat: 70
+    lum: 50
 ---
 
+# Live Repl
+
+There is also a live repl build into the project.
+
+```
 <script>
-    import Repl from 'components/Repl/Repl.svelte'
+    import { Repl } from 'svelte-presenter'
     import App from './code/App.js'
     import Animal from './code/Animal.js'
     import Data from './code/Data.js'
@@ -13,3 +20,6 @@
 </script>
 
 <Repl {components} />
+```
+
+The above example can be seen on the next page

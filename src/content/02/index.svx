@@ -1,0 +1,27 @@
+---
+    layout: column
+    hue: 100
+    sat: 70
+    lum: 50
+---
+
+# Getting Started
+
+**Installation**
+
+Make a local clone of the project
+
+```
+npx degit stephane-vanraes/svelte-presenter my-presentation
+```
+
+Install dependencies and ru
+
+```
+npm install
+npm run dev
+```
+
+**Set a title**
+
+To set a html title, modify `main.js`

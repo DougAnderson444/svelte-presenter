@@ -1,0 +1,8 @@
+---
+    layout: centered
+    hue: 50
+    sat: 70
+    lum: 50
+---
+
+# Svelte Presenter

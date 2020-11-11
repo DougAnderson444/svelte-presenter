@@ -1,12 +1,19 @@
-// TODO: All of this should be auto generated somehow
+import Page0 from './content/01/index.svx'
+import Page1 from './content/02/index.svx'
+import Page2 from './content/03/index.svx'
+import Page3 from './content/04/index.svx'
+import Page4 from './content/05/index.svx'
+import Page5 from './content/06/index.svx'
+import Page6 from './content/07/index.svx'
+import Page7 from './content/08/index.svx'
 
-import page1 from './pages/01_Introduction.svx'
-import page2 from './pages/02_GettingStarted.svx'
-import page3 from './pages/03_Navigation.svx'
-import page4 from './pages/04_Layouts.svx'
-import page5 from './pages/05_Default.svx'
-import page6 from './pages/06_Centered.svx'
-import page7 from './pages/07_Paged.svx'
-import page8 from './pages/08_Classes.svx'
-
-export default [page1, page2, page3, page4, page5, page6, page7, page8]
+export default [
+	{ component: Page0, hue: 50, sat: 70, lum: 50 },
+	{ component: Page1, hue: 100, sat: 70, lum: 50 },
+	{ component: Page2, hue: 150, sat: 70, lum: 50 },
+	{ component: Page3, hue: 200, sat: 70, lum: 50 },
+	{ component: Page4, hue: 250, sat: 70, lum: 50 },
+	{ component: Page5, hue: 300, sat: 70, lum: 50 },
+	{ component: Page6, hue: 350, sat: 70, lum: 50 },
+	{ component: Page7, hue: 40, sat: 70, lum: 50 }
+]

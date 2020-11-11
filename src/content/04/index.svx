@@ -1,0 +1,21 @@
+---
+    layout: column
+    hue: 200
+    sat: 70
+    lum: 50
+---
+
+# Adding pages
+
+**location**
+
+- all pages should be placed in their own directory in `src/content`
+- the entry point to the page itself has to be called `index.svx`
+- the build script will pick up pages in the order of the directories
+
+**frontmatter**
+
+- layout -> the layout to be used
+- hue -> the hue element for this page's colour scheme
+- sat -> the saturation element for this page's colour scheme
+- lum -> the lumination element for this page's colour scheme

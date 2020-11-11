@@ -1,0 +1,17 @@
+---
+    layout: column
+    hue: 40
+    sat: 70
+    lum: 50
+---
+
+<script>
+    import { Repl } from 'svelte-presenter'
+    import App from './code/App.js'
+    import Animal from './code/Animal.js'
+    import Data from './code/Data.js'
+
+    const components = [App, Animal, Data]
+</script>
+
+<Repl {components} />
