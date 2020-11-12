@@ -10,7 +10,8 @@ export default function pageBuilder() {
             const components = await fs.readdir(`${CONTENTDIR}`)
             const imports = components.map((c, i) => `import Page${i} from './content/${c}/index.svx'`)
             const pages = components.map((c, i) => {
-                const { hue = 0, sat = 0, lum = 0 } = matter.read(`${CONTENTDIR}/${c}/index.svx`).data
+                const { hsl = "" } = matter.read(`${CONTENTDIR}/${c}/index.svx`).data
+                const [ hue = 0, sat = 0, lum = 0] = hsl.split(' ')
                 return `\n\t{ component: Page${i}, hue: ${hue}, sat: ${sat}, lum: ${lum} }`
             })
 

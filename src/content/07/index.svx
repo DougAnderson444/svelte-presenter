@@ -1,8 +1,6 @@
 ---
     layout: column
-    hue: 350
-    sat: 70
-    lum: 50
+    hsl: 350 70 50
 ---
 
 # Live Repl

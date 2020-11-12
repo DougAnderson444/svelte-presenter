@@ -1,8 +1,6 @@
 ---
     layout: column
-    hue: 100
-    sat: 70
-    lum: 50
+    hsl: 100 70 50
 ---
 
 # Getting Started

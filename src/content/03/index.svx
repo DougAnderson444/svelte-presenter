@@ -1,8 +1,6 @@
 ---
     layout: centered
-    hue: 150
-    sat: 70
-    lum: 50
+    hsl: 150 70 50
 ---
 
 # What is Svelte Presenter ?
