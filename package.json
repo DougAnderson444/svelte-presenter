@@ -1,5 +1,6 @@
 {
-  "name": "svelte-app",
+  "name": "svelte-presenter",
+  "author": "Stephane Vanraes",
   "version": "1.0.0",
   "scripts": {
     "build": "rollup -c",
