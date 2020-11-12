@@ -6,7 +6,10 @@ const CONTENTDIR = 'src/content'
 export default function pageBuilder() {
     return {
         name: 'page-builder',
-        buildStart: async () => {
+        buildStart: async function() {
+
+            this.addWatchFile(CONTENTDIR)
+
             const components = await fs.readdir(`${CONTENTDIR}`)
             const imports = components.map((c, i) => `import Page${i} from './content/${c}/index.svx'`)
             const pages = components.map((c, i) => {
